@@ -26,7 +26,7 @@ class _RootState extends State<Root> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBody: true, // keeps curved bar floating
+      extendBody: true, 
       body: _pages[index],
       bottomNavigationBar: AbottomBar(
         currentIndex: index,
